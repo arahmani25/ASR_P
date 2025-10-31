@@ -5,6 +5,8 @@
 
   export default defineConfig({
     plugins: [react()],
+    base: '/ASR_P/', // good, you already have this
+
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
